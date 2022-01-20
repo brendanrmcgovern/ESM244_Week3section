@@ -9,11 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
+library(cowplot)
 ```
 
 
 ```{r}
 ggplot(starwars, aes(x = mass, y = height)) +
-  geom_point(color = 'purple')
+  geom_point(color = 'darkcyan') +
+  theme_bw()
 ```
 
