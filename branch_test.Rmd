@@ -14,7 +14,7 @@ library(tidyverse)
 
 ```{r}
 ggplot(starwars, aes(x = mass, y = height)) +
-  geom_point(color = 'red') +
+  geom_point(color = 'darkcyan') +
   theme_minimal()
 ```
 
